@@ -1,0 +1,563 @@
+ @font-face {
+  font-family: TAN-PEARL;
+  src: url(../fonts/TAN-PEARL/TAN-PEARL.ttf);
+
+}
+ @font-face {
+  font-family: "Sharpe PERSONAL";
+  src: url(../fonts/sharpe/SharpeLi_PERSONAL.ttf);
+
+}
+ 
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+
+/* Global Reset */
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+}
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+section{
+  text-align: center;
+  
+  
+}
+.bulb-image{
+  height: 60px;
+  width:60px;
+}
+/* Navbar */
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  /* width:80%; */
+  margin: auto;
+  padding-bottom: 30px;
+
+
+}
+.hambugger{
+  display: none;
+}
+.nav{
+  width: 100%;
+
+  padding: 0 10%;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  height: 135px;
+  right: 0;
+  z-index: 9999; 
+  background: #ffffff;
+  
+  
+
+}
+.svg{
+  height: 30px;
+  width: 30px;
+}
+.logo-design{
+  height: 40px;
+  width: 139px;
+}
+.nav-right{
+  display:flex;
+  gap:16px;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-right p{
+  font-family:'Nunito Sans', sans-serif ;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 24px;
+}
+.wedding-button{
+  border: 0px;
+  background: #117565;
+  border-radius: 4px;
+  width:269px;
+  height:76px;
+  color:#ffffff;
+  font-size: 24px;
+  font-weight: 600px;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 24px;
+
+}
+.container{
+  width: 1215px; 
+  margin: auto;
+  
+}
+body{
+  
+  background: #ffffff;
+  max-width: 100%;
+  overflow-x: hidden;
+  
+
+}
+/* Image Text*/
+.content{
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   justify-content: center;
+   color: #ffffff;
+   align-items: center;
+   width: 1215px;
+   
+   
+  
+}
+.premium{
+  /* width: 1923px; */
+  width: 100%;
+ height: 741px;
+ padding-top: 222px;
+ padding-bottom: 218px;
+ background: url(../src/assets/images/wedding.png)
+ 
+}
+.content p{
+  font-family:'Nunito Sans', sans-serif ;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.content h3{
+  font-family: TAN-PEARL;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+/* Hero */
+.hero{
+ margin-top: 236px;
+ justify-content: center;
+  display:flex;
+  row-gap:20px;
+  margin-bottom: 200px;
+  padding: 0,20px;
+  
+  /* height: 1039px; */
+  
+}
+.hero-left{
+  width: 50%;
+ text-align:left;
+}
+
+
+.hero-bold{
+  text-align:center;
+  font-style: normal;
+  margin-bottom:20px;
+  letter-spacing: 0.002em;
+  font-weight: 300;
+  line-height: 124.5%;
+  color:#231F20;
+  font-family:'sharpe PERSONAL';
+  font-size: 69.11px;
+  
+
+  
+  
+}
+.hero-bold span{
+  
+  color: rgb(162, 120, 13);
+  text-align:center;
+  font-family:TAN-PEARL;
+  font-size: 61.43px;
+}
+.hero-text{
+  font-weight: 400;
+  margin-bottom:31px;
+  color:#231F20;
+  font-size: 18px;
+  font-family: 'Nunito Sans', sans-serif;
+  width: 400px;
+  margin-top: 60px;
+  
+
+  
+}
+.hero-button{
+  font-family:'Nunito Sans', sans-serif ;
+  background: #117565;
+  border-radius: 3.07px;
+  border: 0px;
+  width:200px;
+  height:59px;
+  color:#ffffff;
+  padding: 18.5px;
+  
+}
+.watch{
+  display: flex;
+  align-items: center;
+  color: black;
+  padding: 18.5px;
+  border: 1.17857px solid ;
+  justify-content: center;
+  background: #ffffff;
+  width: 167px;
+  height: 59px;
+  border-radius:3.07px;
+
+}
+.hero-right{
+  width: 50%;
+  
+}
+.buttons{
+  display: flex;
+  gap:6.14px;
+  align-items: center;
+}
+
+
+.img-left{
+  width:100%;
+
+  
+}
+.within{
+  width: 80%;
+  
+}
+
+/* Screenshot */
+.screenshot{
+  margin-top: 100px;
+  
+}
+.screenshot span{
+  font: TAN-PEARL;
+}
+
+.site{
+  width: 1129px;
+  height:599px;
+  aspect-ratio: 1.7790166028/1;
+  border: none;
+  margin:20px;
+  /* margin-top: 20px;
+  margin-bottom:20px; */
+  filter: drop-shadow(0px 6.08746px 89.7901px rgba(0, 0, 0, 0.25));
+
+}
+.create-text{
+  margin-top: 50x;
+  font-weight: 10;
+  font-family: "Sharpe PERSONAL";
+  font-size: 40px;
+  text-align: center;
+
+  
+  
+}
+.create-text span{
+  font-family: TAN-PEARL;
+}
+.create-p{
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: 'Nunito Sans', sans-serif;;
+}
+.gift-image{
+  width:50% ;
+}
+
+/*FOOTER*/
+footer{
+  background: #34544F;
+  padding-left: 40px;
+  padding-right:40px;
+  padding-top:40px;
+  height: 881px;
+  color: #ffffff;
+  padding-bottom:px;
+
+}
+.middle-top{
+
+  margin: auto;
+  opacity: 0.5;
+  
+ 
+}
+.middle-top img{
+  height: 60%;
+  width: 40%;
+}
+.top-footer{
+  display:flex;
+  justify-content:space-between;
+  height: 500px;
+  align-items: center;
+  line-height: 1.6rem;
+  
+
+}
+.top-footer a{
+  font-size: 24px;
+}
+
+footer a {
+  color:#ffffff;
+}
+.left-top,.right-top{
+  padding: 10px;
+  line-height: 20px;
+}
+.bottom-footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 24px;
+  margin-top: 60px;
+  
+
+  
+
+}
+.logo-section{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  width: 455px;
+  
+}
+.top-footer h3{
+  font-family: "sharpe PERSONAL";
+}
+.top-footer li{
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 50px;
+}
+
+footer li{
+  margin-top: 30px;
+  
+}
+footer h3{
+  font-size:40px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+.text-section{
+  display: flex;
+  gap:10px;
+  width: 455px;
+}
+/* EXperience */
+.experience{
+ margin-top:80px;
+ margin-bottom: 80px;
+  padding-left:40px;
+  padding-right:40px;
+  text-align: center;
+
+}
+.experience h2{
+  font-weight: 400;
+  font-size:47px;
+  font-family: "sharpe PERSONAL" ;
+  text-align: center;
+  line-height: 1.6em;
+}
+.experience span{
+  color: rgb(162, 120, 13);;
+  font-family: TAN-PEARL;
+}
+.experience-button{
+  border: 1px solid #231F20;
+  width:200px;
+  height:40px;
+  font-family: Questrial;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  background-color: #ffffff;
+}
+.experience-button:hover{
+  background: #546D5F;
+  color: #ffffff;
+
+}
+/* WISH */
+.wish{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #FEFCF4;
+  padding: 20px;
+  height: 940px;
+  
+}
+.wish-content{
+  
+  display: flex;
+}
+.text-wish{
+  width: 50%;
+  text-align: left;
+  margin: auto;
+}
+.image-wish{
+  width: 50%;
+}
+.backstory-image{
+  
+    width:550px;
+    height:350px;
+  object-fit: cover;
+}
+
+.text-wish h2{
+  font-family:"sharpe PERSONAL";
+  color: #231F20;
+  margin-top:73.26px;
+  font-weight:500;
+  font-size: 79.23px;
+}
+.text-wish p{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+}
+
+
+/*SERVICES  */
+.services{
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  padding-left: 50px;
+
+  
+}
+.alt{
+  gap: 15px;
+}
+
+.service-images{
+  width:50%;
+  margin-top:10px;
+
+  
+}
+.invitation{
+  margin-bottom: 40px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 150px;
+  width: 100%;
+}
+.invitation h2 {
+  font-family: "sharpe PERSONAL";
+  font-size: 73.26px;
+  font-weight: 100;
+  text-align: left;
+}
+.invitation-text{
+  width: 50%;
+  padding-right: 100px;
+  text-align: left;
+  font-size: 73.26px;
+  font-weight: 200;
+
+  
+}
+.invitation-text p{
+  font-size: 20px;
+}
+
+.parent{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.flower-image{
+  width:70%;
+  margin-top:10px;
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+.services p{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+/* Media Queries */
+/* Mobile */
+@media screen and (max-device-width:480px){
+  .container{
+    max-width:375px;
+  }
+  .nav{
+  
+    height: 68px;
+    padding: 22px,16px;
+    
+  }
+  .navbar{
+    gap: 230px;
+    width: 100%;
+  }
+  .hambugger{
+    display: flex;
+  }
+  .nav-right{display: none;}
+  .logo-design{
+    width: 83px;
+    height: 24px;
+  }
+  /* HERO */
+  .hero{
+    flex-direction: column;
+    
+  }
+  
+  
+  
+}
+
+
+@media screen and (min-width:1024px
+){
+  .container{
+    max-width:1215px;
+    
+  }
+  
+  
+}
