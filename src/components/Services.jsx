@@ -1,9 +1,7 @@
 import React from "react"
 
-import bulb from "../assets/images/bulb.png"
-
-import Image from "../assets/images/Image.png"
-import gift from "../assets/images/gift.jpg"
+import service from "../assets/images/service.png"
+import receive from "../assets/images/receive.png"
 import grid from "../assets/images/grid.png"
 
 function Services() {
@@ -20,20 +18,16 @@ function Services() {
         </div>
         <div className='invitation-image'>
           <img
-            src={Image}
+            src={service}
             alt='invitation'
             className='service-images'
           />
-          <img
-            src={bulb}
-            alt='bulb'
-            className='bulb-image'
-          />
+          
         </div>
       </div>
       <div className='invitation alt'>
         <img
-          src={gift}
+          src={receive}
           alt='church wedding'
           className='gift-image'
         />
@@ -47,7 +41,7 @@ function Services() {
         </div>
       </div>
       <div className='invitation'>
-        <div className='invitation-text'>
+        <div className='invitation-text '>
           <h2>Plan, step by step</h2>
           <p>
             A wedding plan that you can see and follow step

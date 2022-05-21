@@ -6,7 +6,7 @@ function Screenshot() {
   return (
     <section className='screenshot container'>
       <h2 className='create-text'>
-        CREATE <span> a wedding website</span>
+        Create a wedding <span> website</span>
         <p className='create-p'>
         We give you a beautiful wedding website for your
         guests to engage with your wedding
